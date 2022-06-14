@@ -69,6 +69,7 @@ if user_draw (user_input, computer):
     print("Player({}) : CPU({})\nIt is a tie!".format(user_input, computer)) 
     play() # return the function that stores the game and act as loop and starts the game all over
 
+# brings out invalid selection when user input is wrong 
 if user_input not in list:
     print("Invalid Selection! Try again!")
     play() # return the function that stores the game and act as loop and starts the game all over
